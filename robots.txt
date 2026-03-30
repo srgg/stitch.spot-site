@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://srgg.github.io/stitch.spot-site/sitemap.xml
+Sitemap: https://stitch.spot/sitemap.xml
