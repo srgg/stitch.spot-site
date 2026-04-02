@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /authors/
 Disallow: /quilt_type/
+Disallow: /categories/
+Disallow: /tags/
 
 Sitemap: https://stitch.spot/sitemap.xml
