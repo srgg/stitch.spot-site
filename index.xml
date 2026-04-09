@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Longarm Quilting in Colorado Springs, CO | Stitch Spot</title><link>https://stitch.spot/</link><atom:link href="https://stitch.spot/index.xml" rel="self" type="application/rss+xml"/><description>Longarm Quilting in Colorado Springs, CO</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://stitch.spot/media/logo.svg</url><title>Longarm Quilting in Colorado Springs, CO</title><link>https://stitch.spot/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Longarm Quilting in Colorado Springs, CO | Stitch Spot</title><link>https://stitch.spot/</link><atom:link href="https://stitch.spot/index.xml" rel="self" type="application/rss+xml"/><description>Longarm Quilting in Colorado Springs, CO</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://stitch.spot/media/logo.svg</url><title>Longarm Quilting in Colorado Springs, CO</title><link>https://stitch.spot/</link></image><item><title/><link>https://stitch.spot/portfolio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://stitch.spot/portfolio/</guid><description>&lt;h1 id="quilt-type-pages--seo-titles--descriptions"&gt;Quilt Type Pages — SEO Titles &amp;amp; Descriptions&lt;/h1&gt;
+&lt;h2 id="what-this-folder-does"&gt;What this folder does&lt;/h2&gt;
+&lt;p&gt;The portfolio has filter categories — &lt;em&gt;Custom&lt;/em&gt;, &lt;em&gt;Edge-to-Edge&lt;/em&gt;, and
+&lt;em&gt;Made-to-Order&lt;/em&gt;. Each category gets its own page on the site (for example,
+&lt;code&gt;stitch.spot/portfolio/custom/&lt;/code&gt;). These pages are created automatically by
+Hugo, the tool that builds the website.&lt;/p&gt;
+&lt;p&gt;The problem: Hugo names those pages using the short category label alone, so
+Google would see a title like &lt;strong&gt;&amp;ldquo;Custom | Stitch Spot&amp;rdquo;&lt;/strong&gt; — too brief to rank
+well in search results.&lt;/p&gt;
+&lt;p&gt;The small files in this folder give each category page a proper, descriptive
+title and a short summary that search engines display beneath the link. Nothing
+else on the site changes — the URLs stay the same, the portfolio grid stays the
+same.&lt;/p&gt;
+&lt;h2 id="what-each-file-does"&gt;What each file does&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;File&lt;/th&gt;
+&lt;th&gt;What it controls&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;_index.md&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Prevents Hugo from publishing a page at &lt;code&gt;/quilt_type/&lt;/code&gt; (visitors never need to see that path)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;custom/_index.md&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Title &amp;amp; summary for the &lt;strong&gt;Custom&lt;/strong&gt; portfolio page&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;edge-to-edge/_index.md&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Title &amp;amp; summary for the &lt;strong&gt;Edge-to-Edge&lt;/strong&gt; portfolio page&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;made-to-order/_index.md&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Title &amp;amp; summary for the &lt;strong&gt;Made-to-Order&lt;/strong&gt; portfolio page&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="how-to-edit-a-title-or-description"&gt;How to edit a title or description&lt;/h2&gt;
+&lt;p&gt;Open the file for the category you want to change (e.g. &lt;code&gt;custom/_index.md&lt;/code&gt;).
+Inside you&amp;rsquo;ll see three fields between the &lt;code&gt;---&lt;/code&gt; lines:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Custom Longarm Quilting — Colorado Springs, CO&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;slug&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;custom&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;description&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Custom longarm quilting tailored to your quilt&amp;#39;s design. …&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;title&lt;/strong&gt; — what appears in the browser tab and in Google search results.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;slug&lt;/strong&gt; — the URL segment. Keep this identical to the folder name so the
+address doesn&amp;rsquo;t change.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;description&lt;/strong&gt; — the short summary Google shows below the title link.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Edit the text, save, and rebuild the site (&lt;code&gt;pnpm build&lt;/code&gt;).&lt;/p&gt;
+&lt;h2 id="how-to-add-a-new-category"&gt;How to add a new category&lt;/h2&gt;
+&lt;p&gt;If you create a new quilt type in the future:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make a new folder here named after the category (e.g. &lt;code&gt;t-shirt/&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Inside it, create a file called &lt;code&gt;_index.md&lt;/code&gt; with the same three fields
+shown above. Set &lt;code&gt;slug&lt;/code&gt; to match the folder name.&lt;/li&gt;
+&lt;li&gt;Rebuild the site (&lt;code&gt;pnpm build&lt;/code&gt;) and check the result in your browser.&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>
